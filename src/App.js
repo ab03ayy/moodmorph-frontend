@@ -1,7 +1,3 @@
-function App() {
-  return (
-    <div style={{ padding: '20px', background: 'red', color: 'white' }}>
-      TEST CONTENT - If you see this, your app is mounting
-    </div>
-  );
+export default function App() {
+  return <h1 style={{color: 'red'}}>TEST - App is working!</h1>;
 }
