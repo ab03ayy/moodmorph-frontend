@@ -1,13 +1,7 @@
-import React from 'react';
-import Quiz from './components/Quiz';
-import './styles/App.css';
-
 function App() {
   return (
-    <div className="App">
-      <Quiz />
+    <div style={{ padding: '20px', background: 'red', color: 'white' }}>
+      TEST CONTENT - If you see this, your app is mounting
     </div>
   );
 }
-
-export default App;
